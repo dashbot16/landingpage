@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background: #5c5c5c;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 48vmin;
+    text-align: center;
+}
+
+header h1 {
+    padding-top: 100px;
+}
+
+header p {
+    padding-top: 50px;
+}
+
+header button {
+    background: #333;
+    margin-top: 40px;
+    width: 10em;
+    height: 5em;
+    color: white;
+    border: 1px solid #666;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+header button:hover {
+    background: lightgrey;
+}
+
+#sect-1 {
+    text-align: center;
+    padding-top: 40px;
+}
+
+#sect-1-content {
+    width: 70vw;
+    margin: 25px auto
+}
+
+.sect-1-grid {
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    grid-gap: 50px;
+}
+
+.sect-2-grid {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+}
+
+#sect-2 {
+    background: #5c5c5c;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vmin;
+    text-align: center;
+}
+
+.card {
+    margin: 30px;
+}
+
+img {
+    width: 100%;
+}
+
+.card-content {
+    height: 25%;
+    padding: 1.5em;
+    background: white;
+}
+
+.card-content p {
+    margin: 40px;
+}
+
+#sect-3 {
+    text-align: center;
+    padding-top: 40px;
+}
+
+#sect-3-content {
+    width: 70vw;
+    margin: 25px auto
+}
+
+#sect-4 {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.sect-4-grid {
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+}
+
+#contact-us {
+    background: #2690d4;
+    height: 100%;
+}
+
+#contact-us h3{
+    margin: 30px;
+}
+
+#contact-us p{
+    margin: 15px;
+}
+
+#about-us {
+    background: #333;;
+    height: 100%;
+    color: white;
+}
+
+#about-us h3{
+    margin: 30px;
+}
+
+#about-us p{
+    margin: 15px;
+}
+
+footer {
+    background: black;
+    display: grid;
+    color: white;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
